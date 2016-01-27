@@ -6,11 +6,11 @@ public class JobQuiz
 	public static void main(String[] argsv)
 	{
 		String[] jobs = {"Help desk", "Sysadmin", "Sr. Game Design", "Entry level Software Dev", "Kernel Dev"};
-		String[] descriptions = {"Your job is to help users with hardware and software issues. Your salary is $46K.",
-					 "Your job is to keep the servers running, upgrade them, and ensure everything is running smoothly. You will need a Masters degree, 5+ years of \nexperience, and multiple certifications including the A+ and Server+. Your salary is $74K",
-					 "Your job is to manage the team designing the game. You ensure the game is fun and that the teams are working together. You need a Bachelors \ndegree and 5+ years of experience. You need to know  Your salary is $100K.",
-					 "Your job is to write the backend for some site or server. You will want a Bachelors degree, and your salary is $52K",
-					 "Your job is to work on the Linux kernel. You need 5+ years of experince, as many certs as you can get, and at least a Bachelors \n Your salary is $95K."};
+		String[] descriptions = {"You should work at a Help desk. Your job would be to help users with hardware and software issues. Your salary would be $46K.",
+					 "You should be a Sysadmin. Your job would be to keep the servers running, upgrade them, and ensure everything is running smoothly. You would need a Masters degree, 5+ years of \nexperience, and multiple certifications including the A+ and Server+. Your salary would be $74K",
+					 "You should be a Sr. Game Designer. Your job would be to manage the team designing the game. You ensure the game is fun and that the teams are working together. You need a Bachelors \ndegree and 5+ years of experience. You need to know  Your salary is $100K.",
+					 "You should be an Entry level dev (aka code monkey). Your job would be to write the backend for some site or server. You will want a Bachelors degree, and your salary is $52K",
+					 "You should be a Kernel Dev. Your job would be to work on the Linux kernel. You need 5+ years of experince, as many certs as you can get, and at least a Bachelors \n Your salary would be $95K."};
 		int[] scores = new int[5];
 		System.out.println("To answer the questions just type in 'y' or 'n'.");
 		String [] questions = {"Are you willing to wait for expireince?", 
