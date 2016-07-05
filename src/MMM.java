@@ -87,6 +87,7 @@ class Statistics
 			if (counts[maxPos] < counts[i])
 				maxPos = i;
 		mode = list[maxPos];
+
 	}
 
 	public void displayStats()

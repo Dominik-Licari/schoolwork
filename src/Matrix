@@ -1,0 +1,60 @@
+public class Matrix
+{
+        public final int r;
+        public final int c;
+        public final double[][] m;
+        
+        public Matrix (double[][] matrix)
+        {
+                m = matrix;
+                r = m.length;
+                c = m[0].length;
+        }
+        
+        public static Matrix add(Matrix a, Matrix b)
+        {
+                if (a.r != b.r || a.c != b.c)
+                        return null;
+                int r = a.r;
+                int c = a.c;
+                double[][] m = new double[r][c];
+                for (int i = 0; i < r; i++)
+                        for (int j = 0; j < c; j++)
+                                m[i][j] = a.m[i][j] + b.m[i][j];
+                return new Matrix(m);
+        }
+        
+        public Matrix add(Matrix o)
+        {
+                return add(this, o);
+        }
+        public static Matrix sub(Matrix a, Matrix b)
+        {
+                if (a.r != b.r || a.c != b.c)
+                        return null;
+                int r = a.r;
+                int c = a.c;
+                double[][] m = new double[r][c];
+                for (int i = 0; i < r; i++)
+                        for (int j = 0; j < c; j++)
+                                m[i][j] = a.m[i][j] - b.m[i][j];
+                return new Matrix(m);
+        }
+        
+        public Matrix sub(Matrix o)
+        {
+                return sub(this, o);
+        }
+        
+        public static Matrix mult(Matrix a, Matrix b)
+        {
+                if (a.r != b.r || a.c != b.c)
+                        return null;
+                int r = a.r;
+                int c = a.c;
+                double[][] m = new double[r][c];
+                for (int i = 0; i < r; i++)
+                        for (int j = 0; j < c; j++)
+                                ;
+        }
+}

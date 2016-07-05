@@ -1,0 +1,14 @@
+public class DistMatricies
+{
+        public static Matrix add(Matrix m1, Matrix m2)
+        {
+                Matrix ret = null;
+                if (m1.r != m2.r || m1.c != m2.c)
+                        return ret;
+                double[][] retbuild = new double[m1.r][m1.c];
+                for (int i = 0; i < m1.r; i++)
+                        for (int j = 0; j < m1.c; j++)
+                                {}
+                return ret;
+        }
+}
